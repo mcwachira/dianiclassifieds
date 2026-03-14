@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Middleware\Authenticate;
-use Illuminate\Auth\Middleware\RedirectIfAuthenticated;
+use App\Http\Middleware\RedirectIfAuthenticated;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
